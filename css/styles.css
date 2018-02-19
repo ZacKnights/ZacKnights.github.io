@@ -1,6 +1,6 @@
 html{
   height: 100%;
-  background-color: grey;
+  background-color: #e3cda4;
 }
 
 body{
@@ -47,10 +47,37 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
   width: 100%;
 }
 
-.content{
+.navbar{
+  background: #2f343b;
+}
+
+.nav-link, .navbar-brand{
+  color: white;
+}
+
+.content-x{
   /*Page content*/
-  background-color: grey;
+  background-color: #e3cda4;
   padding: 16px 20px;
+}
+
+.content-y{
+  background-color: #c77966;
+  padding: 16px 20px;
+}
+
+.carousel-image{
+  max-height: 75%;
+  height: auto;
+}
+
+.form-submit{
+  background-color: #2f343b;
+  color: white;
+}
+
+.form-submit:hover{
+  background-color: #2f343a;
 }
 
 .stick + .content{
