@@ -1,6 +1,6 @@
 html{
   height: 100%;
-  background-color: #e3cda4;
+  background-color: #374140;
 }
 
 body{
@@ -40,15 +40,8 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
   padding: 20px 20px;
 }
 
-.stick{
-  /*Used by JS when it reaches the right position*/
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 .navbar{
-  background: #2f343b;
+  background: #1e1e20;
 }
 
 .nav-link, .navbar-brand{
@@ -57,13 +50,15 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 
 .content-x{
   /*Page content*/
-  background-color: #e3cda4;
+  background-color: #374140;
   padding: 16px 20px;
+  color: white;
 }
 
 .content-y{
-  background-color: #c77966;
+  background-color: #2A2C2B;
   padding: 16px 20px;
+  color: white;
 }
 
 .carousel-image{
@@ -71,16 +66,11 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
   height: auto;
 }
 
-.form-submit{
-  background-color: #2f343b;
+.button{
+  background-color: #1e1e20;
   color: white;
 }
 
-.form-submit:hover{
-  background-color: #2f343a;
-}
-
-.stick + .content{
-  /*Stops a harsh transition when the header sticks to the top*/
-  padding-top: 100px;
+i.fa-heart{
+  color: #DC3522;
 }
