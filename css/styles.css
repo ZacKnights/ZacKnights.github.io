@@ -74,3 +74,20 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 i.fa-heart{
   color: #DC3522;
 }
+
+.fa-twitter:hover{
+  color: #00aced;
+}
+
+.fa-instagram:hover{
+  color: #8a3ab9;
+}
+
+.fa-snapchat:hover{
+  color: #fffc00;
+}
+
+footer{
+  background-color: #1e1e20;
+  color: white;
+}
