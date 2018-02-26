@@ -26,7 +26,7 @@ var feed = new Instafeed({
   // ensure the filter doesn't reject any images
   return true;
 },
-  template: '<div class="col-2"><img class="w-100" src={{image}}><hr><p class="likes"><i class="fas fa-heart"></i>{{likes}}<p>{{model.short_caption}}...<a href="{{link}}" target="_blank">Read More</a></p></div>'
+  template: '<div class="col-sm-4 col-lg-2 mb-2 mb-lg-0"><img class="w-100" src={{image}}><hr><p class="likes"><i class="fas fa-heart"></i>{{likes}}<p>{{model.short_caption}}...<a href="{{link}}" target="_blank">Read More</a></p></div>'
 });
 
 feed.run();
